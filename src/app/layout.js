@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
 import Image from 'next/image';
+import marvelLogo from './Images/logo.png';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
