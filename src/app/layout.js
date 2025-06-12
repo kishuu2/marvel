@@ -52,20 +52,6 @@ export default function RootLayout({ children }) {
         <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></Script>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <div className="container text-center mt-4">
-          <Image
-            src={marvelLogo}
-            alt="Marvel Logo"
-            width={200}
-            height={100}
-            priority
-          />
-          <p className="lead mt-3">
-            <strong>Welcome to the Marvel Universe Hub 🔥</strong><br />
-            Dive into legendary characters, HD art, and epic lore!
-          </p>
-        </div>
-
         {children}
       </body>
     </html>
