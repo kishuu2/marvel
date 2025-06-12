@@ -17,11 +17,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: 'Marvel Universe Hub',
   description: 'Discover your favorite Marvel heroes, comics, and epic moments in HD.',
-  metadataBase: new URL('marvel-kappa-three.vercel.app'), // <-- CHANGE THIS to your deployed URL
+  metadataBase: new URL('https://marvel-kappa-three.vercel.app'), // ✅ Add https://
   openGraph: {
     title: 'Marvel Universe Hub',
     description: 'Discover your favorite Marvel heroes, comics, and epic moments in HD.',
-    url: 'marvel-kappa-three.vercel.app',
+    url: 'https://marvel-kappa-three.vercel.app',
     siteName: 'Marvel Universe Hub',
     images: [
       {
